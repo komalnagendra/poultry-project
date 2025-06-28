@@ -36,8 +36,8 @@ This AI model helps detect poultry diseases based on feces images, aiding in fas
 
 ## 📊 Dataset
 
-- Source: Custom collected / Kaggle / [Your Data Source]
-- Total Images: `XXXX`
+- Source: Custom collected / Kaggle / chandrashekarnatesh/poultry-diseases
+- Total Images: 2000
 - Classes:  
   - 🟥 Coccidiosis  
   - 🟩 Healthy  
