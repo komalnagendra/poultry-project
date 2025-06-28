@@ -13,10 +13,7 @@ A deep learning project using transfer learning (VGG16) to classify poultry fece
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
 - [How to Run](#how-to-run)
-- [Results](#results)
-- [Tech Stack](#tech-stack)
-- [Contributors](#contributors)
-- [License](#license)
+  
 
 ---
 
@@ -55,5 +52,14 @@ This AI model helps detect poultry diseases based on feces images, aiding in fas
   - `Dropout`
   - `Dense(4, activation='softmax')`
 
+## 👨‍💻 Setup & Run
+
+---
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/komalnagendra/poultry-project.git
+cd poultry-disease-prediction
 
 
