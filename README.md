@@ -55,13 +55,22 @@ This AI model helps detect poultry diseases based on feces images, aiding in fas
   - `Dropout`
   - `Dense(4, activation='softmax')`
 
-```python
-from tensorflow.keras.applications import VGG16
-from tensorflow.keras.layers import Dense, GlobalAveragePooling2D
-from tensorflow.keras.models import Model
+---
+# Setup & Run
+  1.Clone the repository:
+   git clone https://github.com/komalnagendra/poultry-project
+   cd poultry-disease-prediction
+  2.Save the files as below:
+    poultry-project
+    ├── static/
+    │ └── uploads/  
+    | └── css & js files
+    ├── templates/
+    │   └── html files     
+    ├── healthy vs rotten.h5             
+    ├── app.py               
+    └── requirements.txt              
+  3.Run the application:
+    python app.py
 
-base_model = VGG16(weights='imagenet', include_top=False, input_shape=(224, 224, 3))
-x = GlobalAveragePooling2D()(base_model.output)
-x = Dense(128, activation='relu')(x)
-predictions = Dense(4, activation='softmax')(x)
-model = Model(inputs=base_model.input, outputs=predictions)
+
