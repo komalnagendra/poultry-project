@@ -1,0 +1,91 @@
+/* Reset and fonts */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Cool Gradient Background */
+body {
+background: linear-gradient(90deg,rgba(0, 160, 204, 1) 0%, rgba(0, 212, 255, 1) 100%);
+  color: black;
+  min-height: 100vh;
+}
+
+/* Navigation Bar */
+/* Navigation Bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(217, 252, 255, 1) 0%, rgba(71, 255, 249, 1) 100%);
+  padding: 15px 30px;
+  box-shadow: 0 2px 12px rgba(0, 255, 255, 0.1);
+}
+
+/* Brand Title */
+.nav-left {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;              /* Changed from cyan to black */
+  text-shadow: none;         /* Removed blue glow */
+}
+
+/* Navigation links */
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;              /* Changed from light blue to black */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a.active {
+  color: black;              /* Active link also black */
+  text-shadow: none;         /* No glow */
+}
+
+nav a:hover {
+  color: #333;               /* Slightly darker on hover */
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #e0f2f1;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  color: #b2ebf2;
+}
+
+/* Button */
+button#get-started {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 40px;
+  box-shadow: 0 0 10px #00e5ff;
+  transition: all 0.3s ease;
+}
+
+button#get-started:hover {
+  background: red;
+  transform: scale(1.05);
+  box-shadow: 0 0 16px #00ffff;
+}
+
+}  

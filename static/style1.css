@@ -1,0 +1,106 @@
+/* Body Styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #dff6ff, #84dfff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Form Container */
+.container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  color: #2c3e50;
+}
+
+/* Heading */
+h2 {
+  font-size: 26px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #1e3d59;
+}
+
+/* File Input */
+input[type="file"] {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  background: #f0f9ff;
+}
+
+/* Image Preview */
+#preview {
+  display: none;
+  margin: 15px 0;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+/* Predict Button */
+button {
+  background: linear-gradient(to right, #00b4d8, #0077b6);
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 183, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(to right, #0096c7, #023e8a);
+  transform: scale(1.05);
+}
+
+/* Loader */
+#loader {
+  margin-top: 15px;
+  color: #555;
+  font-style: italic;
+  display: none;
+}
+
+/* Result Box */
+#result {
+  margin-top: 25px;
+  background: #e0f7ff;
+  padding: 18px;
+  border-left: 6px solid #0077b6;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #1e3d59;
+  transition: all 0.3s ease;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+  .container {
+    padding: 25px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
