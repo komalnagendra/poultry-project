@@ -3,7 +3,6 @@
 A deep learning project using transfer learning (VGG16) to classify poultry feces images into four classes:  
 `Coccidiosis`, `Healthy`, `Newcastle`, and `Salmonella`.
 
-![Project Banner](https://your-image-link-here.com/banner.png) <!-- Optional -->
 
 ---
 
@@ -31,8 +30,7 @@ This AI model helps detect poultry diseases based on feces images, aiding in fas
 
 ## 🎬 Demo
 
-https://github.com/your-username/your-repo/assets/demo-video.mp4  
-<!-- Or embed a YouTube/Drive video link -->
+(https://drive.google.com/file/d/1lX2l2eT4d6xvfpMudZ6RffRU_eQYZgCP/view?usp=drive_link)
 
 ---
 
