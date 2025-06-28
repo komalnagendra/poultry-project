@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Poultry Detect</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <header>
+    <div class="nav-left"><h1>Poultry Tech Hub</h1></div>
+    <nav>
+      <a href="{{ url_for('home') }}" class="active">🏠 Home</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <h1>Welcome to<br><strong>Poultry Disease Prediction</strong></h1>
+    <a href="{{ url_for('detect_page') }}">
+      <button id="get-started">Get Started</button>
+    </a>
+  </main>
+</body>
+</html>
