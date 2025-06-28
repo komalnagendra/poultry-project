@@ -66,7 +66,7 @@ cd poultry-disease-prediction
 
 ### 2. Save the files
 
- ###3.Run the application:
+###3.Run the application:
  
 ```bash
 python app.py
