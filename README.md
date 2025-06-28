@@ -63,6 +63,14 @@ This AI model helps detect poultry diseases based on feces images, aiding in fas
 git clone https://github.com/komalnagendra/poultry-project.git
 cd poultry-disease-prediction
 
-### 2.Save the files
+
+
+python -m venv venv
+# Windows:
+venv\Scripts\activate
+# macOS/Linux:
+source venv/bin/activate
+
+
 
 
