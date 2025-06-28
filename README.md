@@ -57,10 +57,10 @@ This AI model helps detect poultry diseases based on feces images, aiding in fas
 
 ---
 # Setup & Run
-  1.Clone the repository:
+  -1.Clone the repository:
    git clone https://github.com/komalnagendra/poultry-project
    cd poultry-disease-prediction
-  2.Save the files as below:
+  -2.Save the files as below:
     poultry-project
     ├── static/
     │ └── uploads/  
@@ -70,7 +70,7 @@ This AI model helps detect poultry diseases based on feces images, aiding in fas
     ├── healthy vs rotten.h5             
     ├── app.py               
     └── requirements.txt              
-  3.Run the application:
+  -3.Run the application:
     python app.py
 
 
