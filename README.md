@@ -55,13 +55,5 @@ This AI model helps detect poultry diseases based on feces images, aiding in fas
   - `Dropout`
   - `Dense(4, activation='softmax')`
 
----
-##👨‍💻 Setup & Run
-1. Clone the repository:
-bash
-Copy
-Edit
-git clone https://github.com/komalnagendra/poultry-project.git
-cd poultry-disease-prediction
 
 
